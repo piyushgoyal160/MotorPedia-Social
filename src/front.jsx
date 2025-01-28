@@ -21,14 +21,14 @@ export default function Front() {
           href="https://www.instagram.com/motorpedia_in/"
           className="instagram child"
         >
-          <div className="image">
+          {/* <div className="image">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
               alt="Instagram Logo"
               className="logo"
             />
             <span>Instagram</span>
-          </div>
+          </div> */}
           {/* <p>
             Empowering Dealership | Automotive Sector Excellence Innovating the
             future of car sales and service #motorpedia Explore Our #Cars
@@ -48,14 +48,14 @@ export default function Front() {
           href="https://www.linkedin.com/company/motorpedia/"
           className="linkedin child"
         >
-          <div className="image">
+          {/* <div className="image">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
               alt="LinkedIn Logo"
               className="logo"
             />
             <span>Linkedin</span>
-          </div>
+          </div> */}
           {/* <p>
             MotorPedia is transforming auto dealerships by integrating AI to
             optimize operations, improve customer experiences, and drive
@@ -75,14 +75,14 @@ export default function Front() {
           href="https://www.facebook.com/Motorpediain"
           className="Facebook child"
         >
-          <div className="image">
+          {/* <div className="image">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
               alt="Facebook Logo"
               className=" facebook logo"
             />
             <span>Facebook</span>
-          </div>
+          </div> */}
           {/* <p>
             Creating tech solutions for dealers to ensure smooth operations and
             deliver high-quality, reliable used vehicles to buyers and improve
