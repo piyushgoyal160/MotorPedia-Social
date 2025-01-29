@@ -41,10 +41,10 @@ span {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 
-  @media screen and (max-width: 786px) {
+  /* @media screen and (max-width: 786px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  }
+  } */
 }
 
 .outer-card button {
@@ -152,6 +152,8 @@ a:visited {
   .containers {
     flex-direction: column;
     justify-content: start;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .child {
