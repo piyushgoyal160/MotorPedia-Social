@@ -1,6 +1,6 @@
 import "./back.css";
 import { useState } from "react";
-import imgSrc from "/instagram.png";
+import imgSrc1 from "/instagram.png";
 import imgSrc2 from "/linkedin.png";
 import imgSrc3 from "/facebook.png";
 import imgSrc4 from "/youtube.png";
@@ -16,7 +16,7 @@ import dealersLogo from "/dealersLogo.jpg";
 const socialMediaData = [
   {
     name: "Instagram",
-    image: imgSrc,
+    image: imgSrc1,
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
     link: "https://www.instagram.com/motorpedia_in/",
   },
@@ -51,7 +51,7 @@ const socialMediaData = [
     link: "https://themotorpedia.com/download-apps",
   },
   {
-    name: "Classified",
+    name: "Classifieds",
     image: imgSrc7,
     logo: imgLogo,
     link: "https://themotorpedia.com/",
@@ -67,7 +67,7 @@ const socialMediaData = [
 export default function Back() {
   const [isMore, setIsMore] = useState(false);
 
-  const description = `Motorpedia is a one-stop destination for automobile enthusiasts, buyers, and industry professionals. This comprehensive platform offers detailed information on a wide range of vehicles, including specifications, expert reviews, and comparisons. It keeps users updated with the latest automotive trends and innovations. Featuring a user-friendly interface, Motorpedia provides personalized recommendations, advanced comparison tools, and in-depth insights to make exploring, analyzing, and selecting vehicles seamless and enjoyable for everyone.`;
+  const description = `MotorPedia is a one-stop destination for automobile enthusiasts, buyers, and industry professionals. This comprehensive platform offers detailed information on a wide range of vehicles, including specifications, expert reviews, and comparisons. It keeps users updated with the latest automotive trends and innovations. Featuring a user-friendly interface, Motorpedia provides personalized recommendations, advanced comparison tools, and in-depth insights to make exploring, analyzing, and selecting vehicles seamless and enjoyable for everyone.`;
 
   return (
     <div className="main">
@@ -77,7 +77,7 @@ export default function Back() {
           {isMore ? description : description.slice(0, 250) + "..."}
         </span>
         <span className="see-more" onClick={() => setIsMore(!isMore)}>
-          {isMore ? "show less" : "see more"}
+          {isMore ? "Show less" : "Show more"}
         </span>
       </p>
       <div className="containers">
