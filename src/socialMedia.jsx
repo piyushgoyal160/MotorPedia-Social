@@ -1,4 +1,4 @@
-import "./back.css";
+import "./socialMedia.css";
 import { useState } from "react";
 import imgSrc1 from "/instagram.png";
 import imgSrc2 from "/linkedin.png";
@@ -64,7 +64,7 @@ const socialMediaData = [
   },
 ];
 
-export default function Back() {
+export default function SocialMedia() {
   const [isMore, setIsMore] = useState(false);
 
   const description = `MotorPedia is a one-stop destination for automobile enthusiasts, buyers, and industry professionals. This comprehensive platform offers detailed information on a wide range of vehicles, including specifications, expert reviews, and comparisons. It keeps users updated with the latest automotive trends and innovations. Featuring a user-friendly interface, Motorpedia provides personalized recommendations, advanced comparison tools, and in-depth insights to make exploring, analyzing, and selecting vehicles seamless and enjoyable for everyone.`;
